@@ -5,7 +5,7 @@ class Book {
  String title 
  String subject
  String author
- Int isbn
+ int isbn
  Date dateBorrowed
  Date returnDate
  String student
