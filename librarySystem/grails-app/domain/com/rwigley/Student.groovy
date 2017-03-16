@@ -7,7 +7,10 @@ class Student {
  String username
  String password
  String studentID
- String course
+ Course course
+ Library library
+
+static hasMany=[books:Book]
 
 static constraints = {
 
@@ -17,6 +20,7 @@ static constraints = {
  password blank:false, nullable:false, password:true
  studentID blank:false, nullable:false
  course blank:false, nullable:false
+ library blank:false, nullable:false
 
     }
 }

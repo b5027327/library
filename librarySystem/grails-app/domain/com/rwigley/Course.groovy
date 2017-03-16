@@ -9,12 +9,14 @@ class Course {
  String description
  String studyMode
 
+static hasMany=[students:Student]
+
 static constraints = {
 
  title blank:false, nullable:false
- code blank:false, nullable:false, email:true
+ code blank:false, nullable:false
  leader blank:false, nullable:false
- department blank:false, nullable:false, password:true
+ department blank:false, nullable:false
  description blank:false, nullable:false
  studyMode blank:false, nullable:false
 
