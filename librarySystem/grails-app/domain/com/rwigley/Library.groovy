@@ -10,6 +10,9 @@ class Library {
 
 static hasMany=[librarians:Librarian, students:Student, books:Book]
 
+String toString(){
+return building}
+
 static constraints = {
 
  building blank:false, nullable:false

@@ -14,6 +14,9 @@ class Book {
 
 static hasMany=[bookreviews:BookReview]
 
+String toString(){
+return title}
+
 static constraints = {
 
  title blank:false, nullable:false

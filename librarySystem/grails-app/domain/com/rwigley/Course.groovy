@@ -11,6 +11,9 @@ class Course {
 
 static hasMany=[students:Student]
 
+String toString(){
+return title}
+
 static constraints = {
 
  title blank:false, nullable:false
