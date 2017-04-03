@@ -43,6 +43,14 @@
 	</button>
 </div>
 
+<div class="first">
+	<h3>Advanced Search Management</h3>
+<p>This is an advanced search that allows librarians to search for students by name, student ID and/or username, displaying matching records.</p>
+	<button type="button" class="btn btn-success">
+		<g:link controller="librarian" action="advSearch">Search</g:link>
+	</button>
+</div>
+
 </div>
 </div>
 </body>
