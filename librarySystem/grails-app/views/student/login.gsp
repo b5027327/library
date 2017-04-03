@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Librarian Login</title>
+    <title>Student Login</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>

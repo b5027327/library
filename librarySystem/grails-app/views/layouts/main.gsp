@@ -16,8 +16,10 @@
 
     <div class="row">
 	<asset:image src="library.jpg"/>
-    </div>
 
+	<g:libloginToggle />
+    	<g:stuloginToggle />
+    </div>
     <g:layoutBody/>
 
     <div class="footer" role="contentinfo"></div>
@@ -25,7 +27,7 @@
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>
     </div>
-    <g:loginToggle />
+    
     <asset:javascript src="application.js"/>
 
 </body>
