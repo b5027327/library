@@ -30,6 +30,14 @@
 	</button>
 </div>
 
+<div class="first">
+	<h3>Advanced Search Management</h3>
+<p>This is an advanced search that allows students to search for books by title, subject and/or author, displaying matching records.</p>
+	<button type="button" class="btn btn-success">
+		<g:link controller="student" action="advSearch">Search</g:link>
+	</button>
+</div>
+
 </div>
 </div>
 </body>
