@@ -13,9 +13,6 @@
     <g:layoutHead/>
 </head>
 <body>
-    	
-	<g:link controller="library" action="create">Add Library</g:link>
-	<g:link controller="librarian" action="create">Add Librarian</g:link>
 
     <div class="row">
 	<asset:image src="library.jpg"/>
