@@ -11,7 +11,7 @@ class Librarian {
  Library library
 
 String toString(){
-return name}
+"$name, $email, $office"}
 
 static constraints = {
 

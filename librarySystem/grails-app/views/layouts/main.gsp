@@ -17,8 +17,8 @@
     <div class="row">
 	<asset:image src="library.jpg"/>
 
-	<g:libloginToggle />
-    	<g:stuloginToggle />
+	<g:loginToggle />
+   
     </div>
     <g:layoutBody/>
 
