@@ -11,22 +11,22 @@
 <div class="row">
 	<h1>Library Information System</h1>
 <formset>
-	<legend>Advanced Search for Students</legend>
+	<legend>Advanced Search for Librarians</legend>
 <table>
 	<g:form action="advResults">
 	<tr>
-	 <td>Book Title</td>
-	 <td><g:textField name="title" /></td>
+	 <td>Student Name</td>
+	 <td><g:textField name="name" /></td>
 	</tr>
 	
 	<tr>
-	 <td>Book Subject</td>
-	 <td><g:textField name="subject" /></td>
+	 <td>Student ID</td>
+	 <td><g:textField name="studentID" /></td>
 	</tr>
 	
 	<tr>
-	 <td>Book Author</td>
-	 <td><g:textField name="author" /></td>
+	 <td>Student Username</td>
+	 <td><g:textField name="userName" /></td>
 	</tr>
 
 	<tr>

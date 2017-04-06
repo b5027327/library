@@ -15,7 +15,27 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
-    void toString() {
+	void EmailValid() {
+
+	when: "Email field is typed incorrectly and doesn't match email:true constraint"
+
+	def librarian1 = new Librarian (
+
+	name: 'Mary Berry', 
+	email: 'm.berry.hotmail.co.uk',
+	office: 'Office 101',
+	username: 'mberry',
+	password: 'password',
+	telephone: '01142459846'
+
+)	
+        then:"email:true constraint will trigger on the Email attribute"
+        
+	!librarian1.validate() 
+
+    }
+
+void toString() {
 
 	when: "A Librarian has a name, email and office"
 
@@ -31,5 +51,6 @@ class LibrarianSpec extends Specification {
 
 	Peter.toString() == 'Peter Smith, psmith@my.shu.ac.uk, Office-111'
 
-    }
+}
+
 }

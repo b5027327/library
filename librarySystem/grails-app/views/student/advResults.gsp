@@ -14,14 +14,14 @@
 <h3>Advanced Results</h3>
 
 <p>Searched
-for books matching <em>$(term)</em>.
-Found <strong>${books.size()}</strong> books.
+for students matching <em>$(term)</em>.
+Found <strong>${students.size()}</strong> students.
 </p>
 
 <ul>
-<g:each var="book" in="${books}">
+<g:each var="student" in="${students}">
 <li><g:link controller="student" action="show"
-id="${book.id}">${book.title}</g:link></li>
+id="${student.id}">${student.name}</g:link></li>
 </g:each>
 </ul>
 <g:link action='advSearch'>Search Again</g:link>

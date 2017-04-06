@@ -15,8 +15,20 @@ class LibrarySpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void LibraryValid() {
+
+	when: "Building field is left empty"
+
+	def lib1 = new Library (
+
+	building: '', 
+	address: '23 Arundel Gate, Sheffield',
+	openingHours: '09:00 - 17:00',
+	location: 'Terry Building',
+	studySpaces: '42'
+)	
+        then:"nullable constraint will trigger on the Building attribute"
+        
+	!lib1.validate() 
     }
 }
