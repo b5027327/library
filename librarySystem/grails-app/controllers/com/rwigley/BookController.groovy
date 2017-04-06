@@ -1,5 +1,7 @@
 package com.rwigley
 
+import grails.converters.*
+
 class BookController {
 
    def scaffold=Book
@@ -21,5 +23,17 @@ def advResults() {
 
 [books:books]
 } 
+
+def BIndex(Book book){
+
+render Book.list() as JSON
+
+if (Book == null){
+
+flash.message="There are presently no Book details in the database."
+
+}
+
+}
 
 }

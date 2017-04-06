@@ -38,6 +38,14 @@
 	</button>
 </div>
 
+<div class="second">
+	<h3>Book Index</h3>
+<p>This is the book index list.</p>
+	<button type="button" class="btn btn-success">
+		<g:link controller="book" action="BIndex">Book Index [JSON]</g:link>
+	</button>
+</div>
+
 </div>
 </div>
 </body>
